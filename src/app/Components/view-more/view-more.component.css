@@ -1,0 +1,11 @@
+.view-more{
+    height: 567px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.view-more p{
+    font-size: 35px;
+    text-align: center;
+    text-decoration: line-through;
+}

@@ -1,0 +1,21 @@
+<div class="body-container">
+    <div class="login-container">
+        <div class="signin-form">
+            <h2 class="text-white">Sign In</h2>
+            <form>
+                <div class="input-group">
+                    <label for="username" class="text-white">Username</label>
+                    <input type="text" id="username" name="userName" [(ngModel)]="userObj.userName" required>
+                </div>
+                <div class="input-group">
+                    <label for="password" class="text-white">Password</label>
+                    <input type="password" id="password" name="password" [(ngModel)]="userObj.password" required>
+                </div>
+                <button type="submit" (click)="signin()">Sign In</button>
+            </form>
+        </div>
+    </div>
+
+    
+</div>
+
